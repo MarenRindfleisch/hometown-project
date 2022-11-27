@@ -4,6 +4,11 @@ body {
 h1 {
   text-align: center;
 }
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
 li a {
   background-color: blue;
   color: #fff;
@@ -14,17 +19,21 @@ li a {
   text-decoration: none;
   width: 310px;
 }
-img {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
-}
+
 li {
   float: left;
   border-right: 1px solid #fff;
 }
 li a:hover:not(.active) {
   background-color: blueviolet;
+}
+
+p {
+  hyphens: auto;
+}
+
+section {
+  font-size: inherit;
 }
 ul {
   background-color: blue;
