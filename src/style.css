@@ -1,0 +1,43 @@
+body {
+  background-color: lightblue;
+}
+h1 {
+  text-align: center;
+}
+li a {
+  background-color: blue;
+  color: #fff;
+  display: block;
+  height: 50px;
+  padding: 10px 12px;
+  text-align: center;
+  text-decoration: none;
+  width: 310px;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+li {
+  float: left;
+  border-right: 1px solid #fff;
+}
+li a:hover:not(.active) {
+  background-color: blueviolet;
+}
+ul {
+  background-color: blue;
+  border: 5px solid green;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: sticky top;
+  position: -webkit-sticky;
+  top: 5px;
+  width: 100%;
+}
+
+.active {
+  background-color: red;
+}

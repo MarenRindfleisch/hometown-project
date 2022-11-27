@@ -4,19 +4,59 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css
 "
     />
+    <link rel="stylesheet" href="src/style.css" />
     <title>Jersey City</title>
   </head>
   <body>
     <div class="container">
-      <h1>Welcome to Jersey City</h1>
-      <a href="" class="btn btn-primary">click me</a>
+      <h1>Jersey City, New Jersey</h1>
+      <ul>
+        <li><a href="#welcome" class="active">Welcome</a></li>
+        <li><a href="#historicPlaces">Historic Places</a></li>
+        <li><a href="#diningAndNightlive">Dining & Nightlife</a></li>
+        <li><a href="#Community">Community</a></li>
+      </ul>
+      <header>
+        <img src="media/welcome.PNG" alt="WelcomeToJerseyCity" />
+      </header>
+
+      <p>
+        Located on the east coast of the United States of America, Jersey City
+        is the second-most populous city in the state of New Jersey and the
+        largest of its county 'Hudson County'. While it is located just across
+        the New York Upper Bay and Hudson River from New York City and part of
+        the Tri-state area, Jersey City has it's very own character and vibe.
+        Jersey City is known to be a center of for banking and finance business
+        and it's redeveloped waterfront carries the nickname 'Wall Street West'.
+        Jersey City's large public transportation system with great connections
+        to Manhattan, beautiful parks and recreation areas as well as a lot of
+        history made this city become not only the residence of choice for a
+        diverse population but also a global destination for visitors from all
+        over the world. Ongoing development als caused JC to be the City with
+        the highest median rental rates in the United States. More information
+        and insightful data on the cities history, recent changes, future
+        development plans and visions can be found in the
+        <a href="https://ourjc-jerseycity.hub.arcgis.com/"
+          >'Jersey City Master Plan Vision'</a
+        >
+        and on the Website of the
+        <a
+          href="https://www.jerseycitynj.gov/cms/One.aspx?portalId=6189744&pageId=9289628"
+          >Devision of City Planning</a
+        >.
+      </p>
+      <section>
+        You live in Jersey City, visited plenty of times and know the back of
+        its hand or you are curius for some more JC facts? Test your knowledge
+        with the ten questions of the Jersey City Quiz:
+        <button id="quizButton">Jersey City Quiz</button>
+      </section>
     </div>
-    <script src="script.js"></script>
+    <script type="module" src="src/script.js"></script>
   </body>
 </html>
