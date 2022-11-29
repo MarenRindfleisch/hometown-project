@@ -28,13 +28,14 @@ li a {
   width: 310px;
 }
 
-li a:hover: not(.active) {
+li a:hover:not(.active) {
   background-color: var(--tetiary-color);
   color: var(--quarternary-color);
 }
+
 li {
   float: left;
-  border-right: 1px solid var(--quarternary-colorcolor);
+  border: 1px solid var(--quarternary-color);
 }
 
 p {
@@ -45,7 +46,6 @@ section {
   font-size: inherit;
 }
 ul {
-  border: 5px solid var(--quarternary-colorcolor);
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -56,7 +56,7 @@ ul {
 }
 
 .active {
-  background-color: var(--tertiary-colorcolor);
+  background-color: var(--tertiary-color);
 }
 
 .menu-options {
